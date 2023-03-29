@@ -30,17 +30,17 @@ Used:
 * 527 rows 
 * columns:
 * 
-| Initial Column 
+ Initial Column: 
 
-order_id	order_date	sku	color	size	unit_price	quantity	revenue
+order_id, order_date, sku, color, size,	unit_price, quantity, revenue
 
- Comment
- order_id & sku were removed, because  the columns were not needed
+ Comment:
+ order_id & sku were removed because  the columns were not needed
 
-New Column
-order_date	color	size	unit_price	quantity	revenue	day	month	year
+New Column:
+order_date, color, size, unit_price, quantity, revenue,	day, month, year
 
-Comment
+Comment:
 Day, month & year were added to understand the revenue and the costumer behavior
 
 ### Data Wrangling and Cleaning
